@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portofolio profesional Rendi - Web Developer">
+    <title>Rendi | Web Developer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="loading-screen">
+        <div class="loader">
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+        </div>
+        <div class="loading-text">Loading Portfolio...</div>
+    </div>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo"></a>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero fade-in">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Hi, I'm <span class="highlight">Rendi</span></h1>
+                    <h2>Web Developer</h2>
+                    <p class="tagline">Building digital experiences that matter</p>
+                    <a href="#portfolio" class="btn btn-primary">See my project</a>
+                    <a href="" class="btn btn-secondary">Download CV <i class="fas fa-download"></i></a>
+                </div>
+                <div class="hero-image">
+                    <img src="/image/profile.jpeg" alt="Foto Profil [Nama Anda]" class="profile-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about slide-up">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Who Me? <span class="emoji">🤔</span></h3>
+                    <p>
+                        A <span class="highlight">rising backend developer</span> currently mastering the art of web
+                        development
+                        through Laravel, Inertia, and React. I'm building my expertise in
+                        <span class="highlight">repository-service patterns</span> while crafting full-stack solutions.
+                        Every day brings new challenges and learning opportunities!
+                    </p>
+
+                    <h3>Experiences</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-date">2025 - Now</div>
+                            <div class="timeline-content">
+                                <h4>Fullstack Developer</h4>
+                                <p>PT NICE MEDIA TECHNOLOGY</p>
+                                <p>
+                                    <li>Develop and maintain full-stack web applications using Laravel, Inertia.js, and
+                                        React</li>
+                                    <li>Implement Repository-Service Pattern in Laravel backend to improve code
+                                        structure, scalability, and maintainability</li>
+                                    <li>Collaborate with cross-functional teams to deliver high-quality software
+                                        solutions</li>
+                                    <li>Write clean, efficient, and well-documented code following best practices</li>
+                                    <li>Optimize application performance and ensure responsive user interfaces</li>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2023 - 2024</div>
+                            <div class="timeline-content">
+                                <h4>Intern - Web Developer</h4>
+                                <p>PT HUMMATECH INDONESIA</p>
+                                <p>
+                                    <li>Gain hands-on experience in Laravel development, including building and
+                                        maintaining web applications</li>
+                                    <li>Participate in project management activities and contribute to team
+                                        collaboration efforts</li>
+                                    <li>Apply technical skills in a real-world development environment while working
+                                        with a team</li>
+                                    <li>Learn and implement best practices in web development and teamwork</li>
+                                    <li>Enhance problem-solving skills through practical application of Laravel
+                                        framework</li>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3>Education</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-date">2022 - 2025</div>
+                            <div class="timeline-content">
+                                <div class="timeline-content">
+                                    <h4>Vocational High School - Software Engineering</h4>
+                                    <p>SMK PGRI 2 Ponorogo</p>
+                                    <p>Studied web development (PHP, JavaScript), database systems, and software
+                                        development workflows. Experienced in creating applications as exam projects</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Add this right after the About section -->
+    <section class="tech-stack-slider slide-up">
+        <div class="container">
+            <h2 class="section-title">Tech Stack</h2>
+            <div class="tech-stack-track">
+                <div class="tech-stack-inner">
+                    <!-- First Set (Visible) -->
+                    <div class="tech-item">
+                        <i class="fab fa-php"></i>
+                        <span>PHP</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fab fa-laravel"></i>
+                        <span>Laravel</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fab fa-js"></i>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fab fa-react"></i>
+                        <span>React</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fas fa-database"></i>
+                        <span>MySQL</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fab fa-github"></i>
+                        <span>Github</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fab fa-bootstrap"></i>
+                        <span>Bootstrap</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML5</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fab fa-php"></i>
+                        <span>PHP</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fab fa-laravel"></i>
+                        <span>Laravel</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fab fa-js"></i>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fab fa-react"></i>
+                        <span>React</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fas fa-database"></i>
+                        <span>MySQL</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fab fa-github"></i>
+                        <span>Github</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fab fa-bootstrap"></i>
+                        <span>Bootstrap</span>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML5</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills slide-up">
+        <div class="container">
+            <h2 class="section-title">My Skill</h2>
+            <div class="skills-grid">
+                <!-- Full-Stack Development -->
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Full-Stack Developer</h3>
+                    <p>Building web applications with Laravel, React, and Inertia.js</p>
+                </div>
+
+                <!-- Backend Expertise -->
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-laravel"></i>
+                    </div>
+                    <h3>Backend Specialist</h3>
+                    <p>Expert in Laravel backend architecture using Repository Pattern</p>
+                </div>
+
+                <!-- Leadership -->
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-users-cog"></i>
+                    </div>
+                    <h3>Technical Lead</h3>
+                    <p>Leading development teams and implementing Agile workflows</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio slide-up">
+        <div class="container">
+            <h2 class="section-title">My Portofolio</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image-container">
+                        <img src="image/project/project1.png" alt="Proyek 1">
+                        <div class="portfolio-overlay">
+                            <p class="overlay-text">View More Details</p>
+                            <a href="project-details.html" class="portfolio-link btn"
+                                aria-label="View School Management System project details">
+                                View Project
+                            </a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>School Management System</h3>
+                        <p>A complete digital solution for school administration, handling student data, grades, and
+                            attendance with Laravel and React.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact slide-up">
+        <div class="container">
+            <h2 class="section-title">Contact Me </h2>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Nama Anda" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Email Anda" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subjek" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Pesan Anda" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h3>Informasi Kontak</h3>
+                    <p><i class="fas fa-envelope"></i> rendydwisaputra250@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +62851-3566-7483</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Ponorogo, East Java</p>
+
+                    <div class="social-links">
+                        <h3>Social Media</h3>
+                        <a href="https://www.linkedin.com/in/rendids/"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/rendids"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/rendi.d_/"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Rendi. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/darkmode.js"></script>
+</body>
+
+</html>
